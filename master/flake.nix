@@ -11,7 +11,6 @@
   inputs.src-ngspice-master.ref   = "refs/heads/master";
   inputs.src-ngspice-master.owner = "haxscramper";
   inputs.src-ngspice-master.repo  = "ngspice";
-  inputs.src-ngspice-master.dir   = "";
   inputs.src-ngspice-master.type  = "github";
   
   inputs."sorta".owner = "nim-nix-pkgs";
