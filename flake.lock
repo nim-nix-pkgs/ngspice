@@ -3,10 +3,12 @@
     "benchy": {
       "inputs": {
         "flakeNimbleLib": [
+          "ngspice-master",
           "hmisc",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "ngspice-master",
           "hmisc",
           "nixpkgs"
         ],
@@ -54,10 +56,12 @@
       "inputs": {
         "benchy": "benchy",
         "flakeNimbleLib": [
+          "ngspice-master",
           "flakeNimbleLib"
         ],
         "jsony": "jsony",
         "nixpkgs": [
+          "ngspice-master",
           "nixpkgs"
         ],
         "src-hmisc-v0_14_6": "src-hmisc-v0_14_6",
@@ -65,11 +69,11 @@
       },
       "locked": {
         "dir": "v0_14_6",
-        "lastModified": 1656302910,
-        "narHash": "sha256-7TWuq1n1WmBhd0hsxTXO97PyP1ShHnWbsHdnIQiZvH8=",
+        "lastModified": 1653703819,
+        "narHash": "sha256-hoY2I1H+/0u4rR8CT+UVQ7c1iIVwNZ2v7BdHl/MWoPA=",
         "owner": "nim-nix-pkgs",
         "repo": "hmisc",
-        "rev": "cb2b853d848a2196854342d03b53f4d9ff2e0f37",
+        "rev": "6d1e7186ce127c639d29f1825da3f53c6a03912b",
         "type": "github"
       },
       "original": {
@@ -83,10 +87,12 @@
     "jsony": {
       "inputs": {
         "flakeNimbleLib": [
+          "ngspice-master",
           "hmisc",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "ngspice-master",
           "hmisc",
           "nixpkgs"
         ],
@@ -109,6 +115,35 @@
         "type": "github"
       }
     },
+    "ngspice-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "hmisc": "hmisc",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "sorta": "sorta",
+        "src-ngspice-master": "src-ngspice-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1653703909,
+        "narHash": "sha256-kynRhMiHOLe+uNeXTwWgL77oPZypBsz5ypQ5qzeF6AM=",
+        "owner": "nim-nix-pkgs",
+        "repo": "ngspice",
+        "rev": "6240d02c85004c75e19004fa345841455d192f4b",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "ngspice",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 0,
@@ -124,29 +159,29 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
-        "hmisc": "hmisc",
-        "nixpkgs": "nixpkgs",
-        "sorta": "sorta",
-        "src-ngspice-master": "src-ngspice-master"
+        "ngspice-master": "ngspice-master",
+        "nixpkgs": "nixpkgs"
       }
     },
     "sorta": {
       "inputs": {
         "flakeNimbleLib": [
+          "ngspice-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "ngspice-master",
           "nixpkgs"
         ],
         "src-sorta-master": "src-sorta-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1656301257,
-        "narHash": "sha256-m9hUtW4N362DD4wIwI26NNhshkliIn2P4Zg61i8tKQw=",
+        "lastModified": 1653702391,
+        "narHash": "sha256-IywhfLb7rFsouUBqOxwnDl3gDy87BpqKj1UmMUrG7QE=",
         "owner": "nim-nix-pkgs",
         "repo": "sorta",
-        "rev": "192fe0f152f03b84dd23fe8bf242c6699252365f",
+        "rev": "3843a3fc06085b35572c1a5faef8df0ec946d10a",
         "type": "github"
       },
       "original": {
@@ -262,10 +297,12 @@
     "unicodedb": {
       "inputs": {
         "flakeNimbleLib": [
+          "ngspice-master",
           "hmisc",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "ngspice-master",
           "hmisc",
           "nixpkgs"
         ],
